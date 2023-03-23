@@ -26,6 +26,8 @@ Above is an example of a Flat File Database (FFD). They allow the user to specif
 A **foreign** key is an attribute that creates a join between two tables (relations). It is the primary key (unique field) in the first relation. It is a field or collection of fields in one table, that refers to the primary key in another table. 
 The table with the foreign key is called the child table, and the table with the primary key is called the referenced or parent table.
 
+While a primary key and a composite key might do the same things, the primary key will consist of one column, where the composite key will consist of two or more columns.
+
 ### Normalisation
 
 There are a lot of ways of arranging data in tables within a database, and each arrangement can be given a label according to how its been arranged. These labels are called thier **'Normal Form'**.
@@ -35,6 +37,8 @@ There are 3 types of normal form: First Normal Form (1NF), Second Normal FOrm (2
 The concept of splitting up tables in a database and arranging the data to move it from 1NF -> 2NF -> 3NF is called normalisation.
 
 Understand definitions of 1NF and 2NF only (no detailed exam questions) and design simple database into 3NF.
+
+Many to Many relationships are **NOT** allowed.
 
 ![image](https://user-images.githubusercontent.com/110039102/227194838-8a35e9c9-9a3f-41f7-ae4e-dbe427ae21a7.png)
 
